@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mag vidros</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mag vidros</h1>
+            <nav>
+                <ul>
+                    <li class="link"><a href="#sobre">Sobre</a></li>
+                    <li class="link"><a href="#servicos">Serviços</a></li>
+                    <li class="link"><a href="#galeria">Galeria</a></li>
+                    <li class="link"><a href="#contato">Contato</a></li>
+                    <img class="insta" src="imgs/instagram.svg">
+                    <li class="link"><a href="https://www.instagram.com/mag.vidros/">Instagram</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sobre" class="cor">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo à Mag Vidros
+                Na Mag vidros, transformamos vidro em arte e funcionalidade. Com anos de experiência no mercado, 
+                oferecemos soluções de vidraçaria de alta qualidade para residências e empresas, unindo elegância, segurança 
+                e durabilidade em cada projeto.</p>
+        </div>
+    </section>
+    <section id="servicos" class="cor">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <h3>Vidros Residenciais:</h3>
+                <li>
+                    Box para Banheiro: Projetos personalizados que aliam segurança e estilo, adaptados ao seu espaço.
+                </li>
+                <h3>
+                    Espelhos:
+                </h3>
+                <li>
+                    Espelhos sob medida para todos os ambientes, aumentando a sensação de espaço e luminosidade.
+                </li>
+                <li>
+                    Portas e Janelas: Instalação e manutenção de portas e janelas de vidro, trazendo modernidade e eficiência energética para sua casa.
+                </li>
+                <li>
+                    Tampos de Mesa e Prateleiras: Peças sob medida que adicionam um toque sofisticado e funcional aos seus móveis.
+                </li>
+                <h3>Vidros Comerciais:</h3>
+                <li>
+                    Fachadas de Vidro: Soluções inovadoras para fachadas, que destacam sua empresa e proporcionam um ambiente mais iluminado.
+                </li>
+                <li>
+                    Divisórias de Ambiente: Divisórias de vidro que criam espaços modernos e funcionais, ideais para escritórios e ambientes corporativos.
+                </li>
+                <li>
+                    Vitrines: Vitrines que valorizam seus produtos e atraem clientes, com design elegante e resistente.
+                </li>
+                <h3>
+                    Vidros Especiais:
+                </h3>
+                <li>           
+                     Vidros Temperados: Segurança e resistência para aplicações que exigem alta durabilidade.
+                </li>
+                <li>
+                    Vidros Laminados: Ideal para projetos que necessitam de isolamento acústico e proteção extra.
+                </li>
+                <li>           
+                     Vidros Insulados: Eficiência energética e conforto térmico para edificações modernas.
+                </li>
+                <h2>Por que Escolher a Mag Vidros</h2>
+                <p>Qualidade Superior: Utilizamos apenas materiais de primeira linha, 
+                    garantindo a durabilidade e segurança de nossos produtos.</p>
+                <p>
+                    Equipe Especializada: Profissionais qualificados e com vasta experiência no setor vidreiro, 
+                    prontos para atender suas necessidades.
+                </p>
+                <p>
+                    Projetos Personalizados: Cada projeto é único e desenvolvido sob medida para atender 
+                    às suas expectativas e necessidades.
+                </p>
+                <p>
+                    Atendimento ao Cliente: Compromisso com a satisfação do cliente, oferecendo 
+                    suporte desde o planejamento até a finalização do projeto.
+                </p>
+            </ul>
+        </div>
+    </section>
+    <section id="galeria" class="cor">
+        <div class="container">
+            <h2>Galeria de Projetos</h2>
+            <div class="gallery">
+                <img src="imgs/img1.jpg" alt="Projeto 1">
+                <img src="imgs/img2.jpg" alt="Projeto 2">
+                <img src="imgs/img3.jpg" alt="Projeto 3">
+                <img src="imgs/img4.jpg" alt="Projeto 4">
+                <img src="imgs/img5.jpg" alt="Projeto 5">
+                <img src="imgs/img6.jpg" alt="Projeto 6">
+                <img src="imgs/img7.jpg" alt="Projeto 7">
+                <img src="imgs/img8.jpg" alt="Projeto 8">
+                <img src="imgs/img9.jpg" alt="Projeto 9">
+                <img src="imgs/img10.jpg" alt="Projeto 10">
+                <img src="imgs/img11.jpg" alt="Projeto 11">
+                <img src="imgs/img12.jpg" alt="Projeto 12">
+                <img src="imgs/img13.jpg" alt="Projeto 13">
+                <img src="imgs/img15.jpg" alt="Projeto 14">
+                <img src="imgs/img16.jpg" alt="Projeto 15">
+                <img src="imgs/img17.jpg" alt="Projeto 16">
+                <img src="imgs/img18.jpg" alt="Projeto 17">
+                <img src="imgs/img19.jpg" alt="Projeto 18">
+            </div>
+            <a href="https://wa.me/5551989473522" class="whatsapp-icon" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </section>
+    <section id="contato" class="cor">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="enviar_mensagem.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mag vidros. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

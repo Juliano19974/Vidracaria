@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cor {
+    background-color: #E0FFFF;	
+}
+
+h1, h2 {
+    font-size: 30px;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.insta {
+    width: 15px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 40%;
+    height: 200px;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.whatsapp-icon {
+    font-size: 80px;
+    color: #25D366; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
